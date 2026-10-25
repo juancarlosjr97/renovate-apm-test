@@ -1,0 +1,12 @@
+name: renovate-apm-test
+version: 1.0.0
+description: APM project for renovate-apm-test
+author: Juan Carlos Blanco Delgado
+targets:
+  - copilot
+dependencies:
+  apm:
+    - vercel-labs/skills/skills/find-skills#v1.7.3
+  mcp: []
+includes: auto
+scripts: {}
