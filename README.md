@@ -20,6 +20,6 @@ Error is
 
 Update the dependency and its generated Copilot skill without deleting the committed skill or requiring manual cleanup.
 
-## Link to the Renovate issue or Discussion
+## Link to the Renovate/APM issue or Discussion
 
-Not opened yet.
+Initial thought it could be Renovate so raised issue https://github.com/renovatebot/renovate/discussions/47386 but then confirmed is APM https://github.com/microsoft/apm/issues/3391.
