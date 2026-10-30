@@ -6,7 +6,7 @@ targets:
   - copilot
 dependencies:
   apm:
-    - vercel-labs/skills/skills/find-skills#v1.7.3
+    - vercel-labs/skills/skills/find-skills#v1.7.4
   mcp: []
 includes: auto
 scripts: {}

@@ -4,34 +4,11 @@ dependencies:
 - repo_url: vercel-labs/skills
   name: find-skills
   host: github.com
-  resolved_commit: 36f68cbba9a8d6aa9b9b3ff3583bfb54bf1ad99e
-  resolved_ref: v1.7.3
+  resolved_commit: a80e4c9d12d607631249d4d7d059f835d4b2f13a
+  resolved_ref: v1.7.4
   version: unknown
   virtual_path: skills/find-skills
   is_virtual: true
   package_type: claude_skill
-  deployed_files:
-  - .agents/skills/find-skills
-  - .agents/skills/find-skills/SKILL.md
-  deployed_file_hashes:
-    .agents/skills/find-skills/SKILL.md: sha256:c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f
   content_hash: sha256:913b9d37d0d54047dd65222bb8c67b2bf04e3cb87dcad1729068d7a8b2c8c396
-deployments:
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/find-skills
-  runtime: null
-  scope: project
-  owners:
-  - vercel-labs/skills/skills/find-skills
-  active_owner: vercel-labs/skills/skills/find-skills
-  content_hash: null
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/find-skills/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - vercel-labs/skills/skills/find-skills
-  active_owner: vercel-labs/skills/skills/find-skills
-  content_hash: sha256:c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f
+deployments: []
